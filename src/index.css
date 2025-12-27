@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Design System – Sun Bird Education Center
+  Theme: Deep Blue + Soft Gold (Formal & Premium)
+  All colors are in HSL as required
+*/
+
+@layer base {
+  :root {
+    /* Background & Text */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* PRIMARY — Deep Navy Blue */
+    --primary: 220 60% 18%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 60% 14%;
+
+    /* SECONDARY — Slightly lighter navy for depth */
+    --secondary: 220 45% 26%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* MUTED — Soft neutral gray */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    /* ACCENT — Soft Gold (Highlights & emphasis) */
+    --accent: 45 65% 52%;
+    --accent-foreground: 222 47% 11%;
+
+    /* DESTRUCTIVE — Controlled red (warnings only) */
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* BORDERS & INPUTS */
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+
+    /* Focus ring uses gold for premium feel */
+    --ring: 45 65% 52%;
+
+    --radius: 0.5rem;
+
+    /* FOOTER */
+    --footer-bg: 220 60% 12%;
+    --footer-text: 0 0% 95%;
+
+    /* ANIMATIONS */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s ease-out;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
