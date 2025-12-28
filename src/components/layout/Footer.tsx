@@ -49,7 +49,7 @@ export const Footer = () => {
       payload.append("email", formData.email);
       payload.append("message", formData.message);
 
-      payload.append("access_key", "638cb5d7-ee70-4c72-9cae-788f204c928d");
+      payload.append("access_key", "5ee1ee02-47b4-4243-ae1d-a7f3c1337e40");
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",

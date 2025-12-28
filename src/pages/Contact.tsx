@@ -4,8 +4,8 @@ import { SiWhatsapp } from "react-icons/si";
 import { schoolInfo } from "@/data/sampleContent";
 
 export const Contact = () => {
-
-  const phoneDigits = schoolInfo.phone.replace(/[^0-9]/g, "");
+  const whatsApp = "9450056136"
+  const phoneDigits = whatsApp.replace(/[^0-9]/g, "");
   const whatsappMessage = encodeURIComponent(
     "Hello Sunbird Education Centre School, I would like to enquire about admissions. Please assist me."
   );
@@ -15,9 +15,9 @@ export const Contact = () => {
   const contactDetails = [
     { icon: Phone, label: "Phone", value: schoolInfo.phone, href: `tel:${schoolInfo.phone}` },
     { icon: Mail, label: "Email", value: schoolInfo.email, href: `mailto:${schoolInfo.email}` },
-    { icon: SiWhatsapp, label: "WhatsApp", value: schoolInfo.phone, href: whatsappLink },
+    { icon: SiWhatsapp, label: "WhatsApp", value: "9450056136", href: whatsappLink },
     { icon: MapPin, label: "Address", value: schoolInfo.address, href: null },
-    { icon: Clock, label: "Office Hours", value: "Mon - Fri: 8:00 AM - 4:00 PM", href: null },
+    { icon: Clock, label: "Office Hours", value: "Mon - Sat: 8:00 AM - 2:00 PM", href: null },
   ];
 
   const socialLinks = [
@@ -47,7 +47,7 @@ export const Contact = () => {
             <CardContent className="p-0">
               <div className="w-full h-[700px] sm:h-[760px] md:h-[800px] lg:h-[830px] overflow-hidden rounded-lg">
                 <iframe
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSet6SuqsD5T9KkFglldGhmt7vd4i6QWwvaVRUDVuL13rpTl8g/viewform?embedded=true"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSe6O471k7BOd9G35DxhRJu2E8Kox_PEOBI7JKrkHVV0dDY1bA/viewform?embedded=true"
                   className="w-full h-full rounded-lg border-0"
                   loading="lazy"
                   title="Enquiry Form"

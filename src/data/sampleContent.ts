@@ -27,14 +27,14 @@ export const schoolInfo = {
   name: "Sunbird Education Centre",
   tagline: "Nurturing Minds, Shaping Futures",
   phone: "+91-9305076203", // SAMPLE: Replace with actual phone
-  email: "sunbirdeducation@gmail.com", // SAMPLE: Replace with actual email
+  email: "sunbird440@gmail.com", // SAMPLE: Replace with actual email
   address: "438, k block, Pulia 17, Yashoda Nagar, Kanpur, Uttar Pradesh 208011", // SAMPLE: Replace with actual address
   
   // SAMPLE: Update with your actual social media handles
   socials: {
     facebook: "https://www.facebook.com/people/Sunbird-Education-Centre/61572996073740/?rdid=W4yXCmc8VB19r2vB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1WfEm29Dy1%2F",
     instagram: "https://www.instagram.com/the_sunbird_education_centre?igsh=aWQ5OHdtcXZyNmh0",
-    youtube: "https://www.youtube.com/@sunbird-education-centre",
+    youtube: "https://www.youtube.com/@RajKumar-ix9qw",
     twitter: "https://x.com/sunbird2212?t=jLy3x_dg-5L1UEvY7wUQIQ&s=09",
   },
 
@@ -44,7 +44,7 @@ export const schoolInfo = {
 
 // SAMPLE: Replace with actual academic session information
 export const academicSession = {
-  title: "Academic Session 2025-26",
+  title: "Academic Session 2026-27",
   content: "New session begins April 1st, 2025. Registration is now open for all classes from LKG to 8th. We invite parents to visit our campus and experience our world-class facilities. Limited seats available. Early bird discount applicable till March 15th.",
 };
 
@@ -165,7 +165,7 @@ export const visionMission = {
 
 // SAMPLE: About school content
 export const aboutSchool = {
-  history: "Established in 1995, Sunbird Education Center has been a beacon of quality education for nearly three decades. What started as a small school with just 50 students has grown into a premier educational institution with over 2,000 students and a team of 150+ dedicated educators. Our journey has been marked by continuous innovation, academic excellence, and a commitment to holistic development.",
+  history: "Established in 2006, Sunbird Education Center has been a beacon of quality education for nearly three decades. What started as a small school with just 50 students has grown into a premier educational institution with over 2,000 students and a team of 150+ dedicated educators. Our journey has been marked by continuous innovation, academic excellence, and a commitment to holistic development.",
   overview: "We offer education from LKG to 8th, affiliated with CBSE Board. Our curriculum blends traditional values with modern teaching methodologies, incorporating technology-enabled learning, experiential education, and activity-based teaching. We maintain an optimal teacher-student ratio of 1:20 to ensure personalized attention to every child.",
 };
 
